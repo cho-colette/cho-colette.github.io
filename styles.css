@@ -1,0 +1,124 @@
+* {
+  margin: 10;
+  box-sizing: border-box;
+}
+html {
+background-color: #143434;
+color: #12f1f6;
+font-family: 'Karla', sans-serif;
+font-weight: 200;
+scroll-behavior: smooth;
+font-size: 24px;
+}
+header {
+padding: 40px;
+}
+
+/* body{
+border: 15px solid cholocolate;
+padding: 2rem;
+background-color: gray;
+background-image: url('https://en.wikipedia.org/wiki/Water#/media/File:SnowflakesWilsonBentley.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+/* background-alignment: fixed; */
+
+} */
+
+h1 {
+line-height: .8;
+}
+
+h4 {
+color: black;
+}
+
+p {
+margin: 1em 0;
+}
+
+nav {
+font-size: 16px;
+text-align: center;
+padding: 1em 0;
+}
+
+a {
+color: white;
+padding: 20px;
+margin: 20px;
+text-transform: uppercase;
+text-decoration: none;
+border: 1px solid white;
+}
+
+#structure {
+padding: 40px;
+column-count: 1;
+color: white;
+background: #16b1b5 url(../pics_webpage/bckgrd_logo.png) fixed;
+/* background-color: #16b1b5;
+background-image: url('https://en.wikipedia.org/wiki/Water#/media/File:SnowflakesWilsonBentley.jpg'); */
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#materials {
+padding: 40px;
+}
+
+#gallery {
+column-count:3;
+column-gap: 10;
+background-color: #16b1b5;
+}
+
+/* div {
+break-inside: avoid;
+background-color: white;
+} */
+
+div{
+  height: 5rem;
+  width: 5rem;
+  font-size:40px;
+  background-color:white;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* div.outside{
+  display: flex;
+}
+
+div.inner {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  background: #29ccc6;
+  flex-grow: 1;
+}
+
+div.inner:nth-child(2){
+  flex-grow: 2;
+
+}
+
+div.inner:nth-child(1){
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.inner:nth-child(3){
+  margin-left: auto;
+} */
+
+img {
+/* display: block; */
+padding: 20pt;
+}
+
+footer {
+text-align: center;
+}
